@@ -1,4 +1,11 @@
 # FixIt Chatbot
+# Demo
+** Try "fan" -> "fan noise" -> Instant repair steps!**
+
+** Try "light bulb" -> "light bulb not glowing" -> Get instant repair steps! **
+
+** Try "remote" -> "remote not working" -> Instant repair steps! **
+
 REPO Link: https://github.com/harshitareddynss/FixIt
 
 Live URL: https://harshitareddynss.github.io/FixIt/
