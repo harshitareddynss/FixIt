@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FIXIT Chat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="chat-container">
+    <h2>FIXIT Chatbot</h2>
+    <div id="messages"></div>
+
+    <input type="file" id="imageUpload" accept="image/*" style="display:none;">
+    
+    <div class="input-row">
+      <input type="text" id="userInput" placeholder="Describe the problem..." autofocus>
+      <button onclick="sendMessage()">Send</button>
+    </div>
+
+    <button class="img-btn" onclick="document.getElementById('imageUpload').click()">📷 Upload Image</button>
+
+  </div>
+
+  <script type="module" src="firebase.js"></script>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
